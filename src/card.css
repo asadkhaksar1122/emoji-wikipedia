@@ -1,0 +1,25 @@
+.emoji {
+  font-size: 44px;
+}
+.name {
+  font-size: 18px;
+}
+.description {
+  font-size: 17px;
+}
+.card {
+   flex-grow: 1;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px 22px;
+    background-color: aliceblue;
+    color: black;
+    margin-right: 5px;
+    box-shadow:5px 5px 5px aliceblue;
+    margin-bottom:23px;
+    width: 24rem; 
+}
+@media (max-width:850px){
+  .card{
+    width: 100%;
+  }
+}
